@@ -21,8 +21,8 @@ Bu proje, PDF makalelerini analiz edip üzerinde soru-cevap işlemleri yapabilen
 
 1. Bu repoyu klonlayın:
    ```
-   git clone https://github.com/yourusername/pdf-qa-app.git
-   cd pdf-qa-app
+   git clone https://github.com/yourusername/PdfChatbot.git
+   cd PdfChatbot
    ```
 
 2. Sanal ortam oluşturun ve etkinleştirin:
