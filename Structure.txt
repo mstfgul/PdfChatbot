@@ -1,0 +1,36 @@
+pdf-qa-app/
+│
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+│
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── setup.py
+├── pyproject.toml
+│
+├── src/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── app.py
+│   ├── etl/
+│   │   ├── __init__.py
+│   │   ├── extract.py
+│   │   ├── transform.py
+│   │   └── load.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── pdf_parser.py
+│   │   ├── openai_client.py
+│   │   └── embeddings.py
+│   └── models/
+│       ├── __init__.py
+│       └── document.py
+│
+└── tests/
+    ├── __init__.py
+    ├── test_extract.py
+    ├── test_transform.py
+    ├── test_load.py
+    └── test_utils.py
